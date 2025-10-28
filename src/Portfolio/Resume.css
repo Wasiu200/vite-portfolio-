@@ -1,0 +1,151 @@
+body {
+  background-color: #121212;
+  color: #ddd;
+  font-family: "Poppins", sans-serif;
+  padding: 1px;
+  margin: 0;
+text-align: left;
+}
+
+.resume {
+  max-width: 600px;
+  margin: 0; 
+  border: 1px solid yellow;
+  border-radius: 10px;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.03);
+  margin-left: 550px;
+  padding: 0px 10px;
+}
+
+.section-title {
+  font-size: 28px;
+  color: yellow;
+  margin-bottom: 20px;
+  border-bottom: 2px solid yellow;
+  display: inline-block;
+  padding-bottom: 5px;
+  text-align: left; 
+}
+
+.timeline {
+  position: relative;
+  margin: 20px 0;
+  padding-left: 25px;
+  border-left: 2px solid yellow;
+  text-align: left;
+}
+
+.timeline-title {
+  font-size: 20px;
+  color: yellow;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 25px;
+}
+
+.timeline-dot {
+  position: absolute;
+  left: -8px;
+  top: 6px;
+  width: 12px;
+  height: 12px;
+  background-color: yellow;
+  border-radius: 50%;
+}
+
+.timeline-content {
+  margin-left: 15px;
+  text-align: left;
+}
+
+.icon{
+background-color: #444;
+color: yellow;
+margin-right: 20px;
+}
+
+.timeline-content h4 {
+  margin: 0;
+  font-size: 18px;
+  color: #fff;
+}
+
+.timeline-content p {
+  margin: 5px 0;
+  color: #ccc;
+}
+
+.timeline-content span {
+  font-size: 14px;
+  color: #aaa;
+}
+
+.skills {
+  margin-top: 40px;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 20px 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(255, 184, 77, 0.1);
+}
+
+.section-title {
+  font-size: 22px;
+  color: yellow;
+  margin-bottom: 20px;
+  text-align: left;
+  border-bottom: 2px solid yellow;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.skill {
+  margin-bottom: 20px;
+}
+
+.skill-info {
+  display: flex;
+  justify-content: space-between;
+  color: #ddd;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.progress-bar {
+  background: #444;
+  border-radius: 20px;
+  height: 10px;
+  overflow: hidden;
+}
+
+.progress1 {
+  height: 100%;
+  background: yellow;
+  border-radius: 20px;
+  transition: width 0.6s ease;
+  width: 50%;
+}
+.progress2 {
+  height: 100%;
+  background:  yellow;
+  border-radius: 20px;
+  transition: width 0.6s ease;
+  width: 20%;
+}
+.progress3 {
+  height: 100%;
+  background:  yellow;
+  border-radius: 20px;
+  transition: width 0.6s ease;
+  width: 20%;
+}
+
+@media (max-width: 480px) {
+  .ul{
+bottom: 0;
+  }
+}

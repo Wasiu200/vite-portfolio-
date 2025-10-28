@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.header12{
+    display: flex;
+     padding: 10px ;
+    justify-content: space-between;
+    background-color: #333;
+    border: 3px solid yellow;
+    border-radius: 16px;
+    margin: 30px;
+text-align: center;
+text-decoration: none;
+}
+
+.container{
+     margin-left: 550px;
+     width: 45%;
+    }
+
+a{
+    text-decoration: none; 
+ } 
+
+ .about{
+    color: yellow;
+}
+
+@media (max-width: 480px) {
+  .ul{
+bottom: 0;
+  }
+}
