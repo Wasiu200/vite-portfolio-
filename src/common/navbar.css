@@ -30,7 +30,49 @@ a{
 }
 
 @media (max-width: 480px) {
-  .ul{
-bottom: 0;
+  ul{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 0;
+    border-top: 2px solid yellow;
+    border-bottom: none;
+    z-index: 1000;
+  }
+.container{
+     margin-left: 1px;
+     width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 0;
+    border-top: 2px solid yellow;
+    border-bottom: none;
+    z-index: 1000;
+  }
+
+  ul {
+    justify-content: space-evenly;
+  }
+
+  ul a {
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* --- Extra small screens --- */
+@media (max-width: 480px) {
+  .ul a {
+    font-size: 0.9rem;
   }
 }
