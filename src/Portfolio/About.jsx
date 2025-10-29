@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Sidebar from "../common/sidebar.jsx";
+import Sidebar from "../common/Sidebar.jsx";
 import './About.css'
 import { FaPhone } from "react-icons/fa";
 // import { FaEnvelope } from "react-icons/fa";
