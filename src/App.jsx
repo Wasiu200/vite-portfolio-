@@ -8,7 +8,6 @@ import Resume from './Portfolio/Resume.jsx';
 import Portfolio from './Portfolio/Portfolio.jsx';
 import Contact from './Portfolio/Contact.jsx';
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
@@ -23,9 +22,10 @@ function App() {
         <Route path="/Sidebar" element={<Sidebar />} />
      </Routes>
     </BrowserRouter>
-      {/* <Contact /> */}
-      {/* <Portfolio /> */}
-      {/* <Resume /> */}
+    {/* <About/>
+      <Resume />
+      <Portfolio />
+      <Contact /> */}
     </>
   )
 }

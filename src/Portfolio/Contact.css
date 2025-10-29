@@ -43,7 +43,6 @@
 
 .form-row input {
   flex: 1;
-  min-width: 250px;
   padding: 12px 15px;
   border-radius: 10px;
   border: none;
