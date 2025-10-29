@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaEnvelope } from 'react-icons/fa'
 import './Sidebar.css'
-const sidebar = () => {
+const Sidebar = () => {
   return (
 <>
  <aside className="sidenav">
@@ -31,4 +31,4 @@ const sidebar = () => {
 )
 }
 
-export default sidebar
+export default Sidebar

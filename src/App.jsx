@@ -2,7 +2,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import { useState } from 'react';
 // import './App.css';
 import Navbar from './common/navbar'
-import Sidebar from './common/sidebar.jsx';
+import Sidebar from './common/Sidebar.jsx';
 import About from './Portfolio/About.jsx';
 import Resume from './Portfolio/Resume.jsx';
 import Portfolio from './Portfolio/Portfolio.jsx';
